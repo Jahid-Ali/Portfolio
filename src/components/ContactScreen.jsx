@@ -16,7 +16,7 @@ const ContactScreen = () => {
           <p className="py-10 text-xl">Interested in working together?</p>
           <p className="text-center">
             Send the Mail and get in touch with me, I will get back to you as
-            soon as I can, Please allow couple days for me to respond
+            soon as I can, Please allow a couple days for me to respond
           </p>
         </div>
 
