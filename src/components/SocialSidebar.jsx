@@ -33,7 +33,7 @@ const SocialSidebar = () => {
           Mail <HiMail size={30} />
         </>
       ),
-      href: "aliofficial6265@gmail.com",
+      href: "mailto:aliofficial6265@gmail.com",
       style: "shadow-orange-500",
     },
     {
