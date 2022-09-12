@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Varela Round", sans-serif;
+    background: #ecf0f3;
+  }
+}
+
+.bg {
+  background: #ecf0f3;
+}
+
+.customShadowImage {
+  box-shadow: 25px 25px 75px rgb(0 0 0 / 25%), 10px 10px 70px rgb(0 0 0 / 25%),
+    inset 5px 5px 10px rgb(0 0 0 / 50%),
+    inset 5px 5px 20px rgb(255 255 255 / 20%),
+    inset -5px -5px 15px rgb(0 0 0 / 75%);
+}
+
+.glow {
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  18%,
+  20%,
+  50.1%,
+  60%,
+  65.1%,
+  80%,
+  90.1%,
+  92% {
+    color: #7cc2d5;
+    text-shadow: none;
+  }
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #00c3ff, 0 0 30px #05c5ff, 0 0 60px #02bcf4,
+      0 0 100px #02bcf4, 0 0 200px #02bcf4;
+  }
+}
+
+.demo_btn_shadow {
+  background: linear-gradient(145deg, #38b9ff, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+.demo_btn_shadow:hover {
+  box-shadow: 4px 4px 8px #38b9ff, -4px -4px 8px #ffffff;
+}
+
+.code_btn_shadow {
+  background: linear-gradient(145deg, #30dd59, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+.code_btn_shadow:hover {
+  box-shadow: 4px 4px 8px #30dd59, -4px -4px 8px #ffffff;
+}
+
+.btn_shadow {
+  color: #000;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+
+.btn_shadow:hover {
+  box-shadow: 4px 4px 8px #ff3f3f, -4px -4px 8px #ffffff;
+}
+
+.skillsbg {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+}
+
+@media (min-width: 640px) {
+  .customSize {
+    font-size: 2.7rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 1120px) {
+  .socialCustom {
+    display: flex;
+  }
+}
