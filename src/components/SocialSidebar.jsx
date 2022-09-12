@@ -4,7 +4,7 @@ import { FaUserCircle } from "react-icons/fa";
 
 import { HiMail } from "react-icons/hi";
 
-const { EMAIL } = require("../config");
+const { EMAIL } = require("../prod");
 
 const SocialSidebar = () => {
   const sidebarLinks = [

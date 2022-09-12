@@ -1,6 +1,6 @@
 import React from "react";
 
-const { EMAIL } = require("../config");
+const { EMAIL } = require("../prod");
 
 const ContactScreen = () => {
   return (
