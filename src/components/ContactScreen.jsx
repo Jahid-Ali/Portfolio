@@ -1,7 +1,5 @@
 import React from "react";
 
-const { EMAIL } = require("../prod");
-
 const ContactScreen = () => {
   return (
     <div
@@ -22,7 +20,7 @@ const ContactScreen = () => {
 
         <div className="text-center">
           <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] duration-300">
-            <a href={`mailto:${EMAIL}`}>Contact Me</a>
+            <a href="aliofficial6265@gmail.com">Contact Me</a>
           </button>
         </div>
       </div>
