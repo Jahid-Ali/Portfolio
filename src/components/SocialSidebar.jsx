@@ -50,7 +50,7 @@ const SocialSidebar = () => {
   ];
 
   return (
-    <div className="hidden socialCustom flex-col top-[34.8%] left-0 fixed">
+    <div className="socialCustom flex-col top-[34.8%] left-0 fixed">
       <ul>
         {sidebarLinks.map(({ id, child, href, style, download }) => (
           <li

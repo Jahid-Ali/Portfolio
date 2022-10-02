@@ -7,6 +7,8 @@ import ProjectScreen from "./components/ProjectScreen";
 import SkilsScreen from "./components/SkillsScreen";
 import SocialSidebar from "./components/SocialSidebar";
 
+import Popup from "./components/Popup";
+
 const App = () => {
   return (
     <div>
@@ -17,6 +19,8 @@ const App = () => {
       <ProjectScreen />
       <SkilsScreen />
       <ContactScreen />
+
+      <Popup />
     </div >
   );
 }
