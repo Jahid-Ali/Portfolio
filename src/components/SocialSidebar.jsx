@@ -23,7 +23,7 @@ const SocialSidebar = () => {
           GitHub <FaGithub size={28} />
         </>
       ),
-      href: "https://github.com",
+      href: "https://github.com/Jahid-Ali",
       style: "shadow-gray-900",
     },
     {
