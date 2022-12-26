@@ -25,7 +25,7 @@ const ProjectScreen = () => {
       src: trendygram,
       title: "Trendygram",
       desc: "Trendygram is a WebApp. Here you can post pictures, like, unlike, comment, follow, unfollow, search user and much more things.",
-      demo: "https://trendygram.herokuapp.com/signin",
+      demo: "https://trendygram01.netlify.app",
       code: "https://github.com/Jahid-Ali/TrendyGram",
       tech: "REACTJS, NODEJS, MONGODB, MONGOOSE, EXPRESSJS, FETCH, CSS",
     },
